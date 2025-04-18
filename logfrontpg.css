@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+  }
+
+  
+
+  .logo{
+    width: 70%;
+    height: 43%;
+    margin-left: 44px;
+    margin-bottom: 10px;
+    padding: 10px;
+    z-index: 2;
+    background-color: #ffffff5b;
+    border-radius: 7px;
+  }
+
+
+  .content {
+    width: 100%;
+    flex-grow: 1;
+    background-image: url('StockCake-Supermarket-aisle-view_1718047124-1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: 1;
+  }
+  
+ 
+
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 8px;
+    width: 350px;
+    height: 478px;
+    align-items: center;
+    align-content: center;
+    margin-top: 350px;
+    margin-left: 750px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    transform: translate(-50%, -50%);
+
+  }
+
+ .a:hover {
+    color: rgb(0, 4, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+ .login-form a{
+    color: #fff;
+    text-decoration:none ;
+  }
+
+
+  h2{
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 38vh;
+
+}
+
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .login-form {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 5; 
+  }
+  
+  .content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+  }
+  
